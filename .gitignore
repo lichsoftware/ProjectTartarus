@@ -50,3 +50,10 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# CMake output files
+PT/build
+
+# Others
+.DS_Store
+.idea
