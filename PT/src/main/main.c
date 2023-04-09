@@ -5,8 +5,7 @@
 // Copyright (C) 2023 by Lich Software.
 //
 // This source is available for the sole purpose of educating whoever
-// might find it useful. Please, do not steal. Feel free to contact the
-// owner at info@lichsoftware.com for any reason regarding the code.
+// might find it useful. Please, do not steal.
 //
 // All rights reserved.
 //
