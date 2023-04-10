@@ -12,23 +12,21 @@
 // $Log:$
 //
 // DESCRIPTION:
-//	Main program.
+//	Main Project Tartarus program.
 //
 //-----------------------------------------------------------------------------
 
-#include <stdio.h>
+#ifndef __T_MAIN_H__
+#define __T_MAIN_H__
 
-#include "../argv/argv.h"
+//-----------------------------------------------------------------------------
+// FUNCTION DECLARATIONS
+//-----------------------------------------------------------------------------
 
-#include "t_main.h"
+//
+// Calls at startup code.
+// Main game loop.
+//
+void T_Main(void);
 
-int main(int argc, char** argv) {
-    printf("%s\n\n", "Project Tartarus launched.");
-
-    myargc = argc;
-    myargv = argv;
-
-    T_Main();
-
-    return 0;
-}
+#endif

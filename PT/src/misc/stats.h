@@ -12,23 +12,15 @@
 // $Log:$
 //
 // DESCRIPTION:
-//	Main program.
+//	Stats variables.
 //
 //-----------------------------------------------------------------------------
 
-#include <stdio.h>
+#ifndef __STATS_H__
+#define __STATS_H__
 
-#include "../argv/argv.h"
+//-----------------------------------------------------------------------------
+// MISC VARIABLES
+//-----------------------------------------------------------------------------
 
-#include "t_main.h"
-
-int main(int argc, char** argv) {
-    printf("%s\n\n", "Project Tartarus launched.");
-
-    myargc = argc;
-    myargv = argv;
-
-    T_Main();
-
-    return 0;
-}
+#endif

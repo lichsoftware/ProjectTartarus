@@ -1,7 +1,8 @@
 cmake_minimum_required(VERSION 3.25)
-project(ProjectTartarus C)
+project(ProjectTartarus)
 set(CMAKE_C_STANDARD 11)
 
-set(PT_src "PT/src/main/main.c")
+message(STATUS "-----------------------------------------------------")
+message(STATUS "Generating for directory: ${CMAKE_CURRENT_SOURCE_DIR}")
 
-add_executable(PT ${PT_src})
+add_subdirectory(PT)

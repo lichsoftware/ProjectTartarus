@@ -53,8 +53,3 @@ dkms.conf
 
 # CMake output files
 PT/build/
-cmake-build-debug/
-
-# Others
-.DS_Store
-.idea
